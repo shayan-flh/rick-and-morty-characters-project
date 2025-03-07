@@ -1,14 +1,8 @@
-# rick-and-morty-characters-project
-this simple strong and fun project was built using powerful library named react js....
+# React + Vite
 
-how to use it ??? use the following 4 steps :
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-1-type (npm i) in your built in terminal in vscode or any other ide or you can run the command using cmd
+Currently, two official plugins are available:
 
-2-type (npm -g i json-server) in your cmd to download json-server globally on your computer
-
-3-type (npm run start) to run the database locally on your computer on port 3000 //you can ofcourse change the command in package.json file
-
-4-type (npm run dev) to start the react project
-
---and this is it i hope i explained clear---
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
