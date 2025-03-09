@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
 import { Outlet, useParams } from 'react-router'
-import Header from '../header/Header'
-import { DataContextDispatchProvider } from '../../contexts/DataContext'
-import SideBar from '../sidebar/SideBar'
-import Footer from '../../footer/Footer'
+import Header from './components/header/Header'
+import { DataContextDispatchProvider } from './contexts/DataContext'
+import SideBar from './components/sidebar/SideBar'
+import Footer from './footer/Footer'
 
 function AppLayout() {
 
