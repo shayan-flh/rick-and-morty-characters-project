@@ -1,10 +1,9 @@
-import { useState, createContext, useEffect } from 'react'
-import './index.css'
-import SideBar from './components/sidebar/SideBar'
+import { Route, Routes } from 'react-router'
+import AppLayout from './AppLayout/'
 import InfoBar from './components/infoBar/InfoBar'
 import DataProvider from './contexts/DataContext'
-import { Route, Routes, useLocation } from 'react-router'
-import AppLayout from './AppLayout'
+import './index.css'
+import SinglePage from './components/singlepage/SinglePage'
 
 
 function App() {
@@ -16,6 +15,9 @@ function App() {
         <Routes >
           <Route path='/' element={<AppLayout />}>
             <Route path=':name' element={<InfoBar />} />
+          </Route>
+          <Route path='/singlechar'>
+            <Route path=':single' element={<SinglePage />} />
           </Route>
         </Routes>
       </DataProvider>

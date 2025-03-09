@@ -1,10 +1,13 @@
-import React, { useState, useContext, memo, useEffect } from 'react'
-import { DataContext, DataContextDispatchProvider } from '../../contexts/DataContext';
-import { data, Outlet, useParams } from 'react-router';
+import React, { useContext, useEffect, useState } from 'react';
+import { useParams } from 'react-router';
+import { DataContextDispatchProvider } from '../../contexts/DataContext';
+import SideBar from '../sidebar/SideBar';
 
 function InfoBar() {
   const [singelChar, setSingleChar] = useState()
   const { name } = useParams()
+  
+  const { single } = useParams()
   const { dispatch } = useContext(DataContextDispatchProvider)
 
   const getData = async () => {

@@ -28,7 +28,7 @@ function DataProvider({ children }) {
     }
 
 
-    const dataReducer = (state, { type, payload }) => {
+    const dataReducer = (redState, { type, payload }) => {
         switch (type) {
             case 'alive':
                 return allData.filter(item => item.status === "Alive");
@@ -36,13 +36,13 @@ function DataProvider({ children }) {
                 return allData.filter(item => item.isFave);
             case 'addToFave':
                 updateDataBase(payload)
-                return state
+                return redState
             default:
                 return allData;
         }
     };
 
-    const [state, dispatch] = useReducer(dataReducer, []);
+    const [redState, dispatch] = useReducer(dataReducer, []);
 
     useEffect(() => {
         const getData = async () => {
@@ -59,7 +59,7 @@ function DataProvider({ children }) {
     }, []);
 
     return (
-        <DataContext.Provider value={{ state, allData }}>
+        <DataContext.Provider value={{ redState, allData }}>
             <DataContextDispatchProvider.Provider value={{ dispatch }}>
                 {children}
             </DataContextDispatchProvider.Provider>

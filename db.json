@@ -71,7 +71,7 @@
       ],
       "url": "https://rickandmortyapi.com/api/character/1",
       "created": "2017-11-04T18:48:46.250Z",
-      "isFave": false
+      "isFave": true
     },
     {
       "id": "2",
@@ -144,7 +144,7 @@
       ],
       "url": "https://rickandmortyapi.com/api/character/2",
       "created": "2017-11-04T18:50:21.651Z",
-      "isFave": false
+      "isFave": true
     },
     {
       "id": "3",
@@ -333,7 +333,7 @@
       ],
       "url": "https://rickandmortyapi.com/api/character/5",
       "created": "2017-11-04T19:26:56.301Z",
-      "isFave": false
+      "isFave": true
     },
     {
       "id": "6",
@@ -356,7 +356,7 @@
       ],
       "url": "https://rickandmortyapi.com/api/character/6",
       "created": "2017-11-04T19:50:28.250Z",
-      "isFave": false
+      "isFave": true
     },
     {
       "id": "7",
@@ -380,7 +380,7 @@
       ],
       "url": "https://rickandmortyapi.com/api/character/7",
       "created": "2017-11-04T19:59:20.523Z",
-      "isFave": false
+      "isFave": true
     },
     {
       "id": "8",
@@ -449,7 +449,7 @@
       ],
       "url": "https://rickandmortyapi.com/api/character/10",
       "created": "2017-11-04T20:19:09.017Z",
-      "isFave": false
+      "isFave": true
     },
     {
       "id": "11",
