@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed on your machine:
 
    ```bash
    npm -g i json-server
-   git clone https://github.com/shayanjoon11/rick-and-morty-characters-project
+   git clone https://github.com/shayan-flh/rick-and-morty-characters-project
    cd your-repo-name
    npm i
    npm run start
