@@ -21,6 +21,6 @@ Before you begin, ensure you have the following installed on your machine:
    run "npm -g i json-server" for globally downloading json-server
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
-   run "npm i" for downloading dependencies needed for project
-   run "npm run start" for running date base using json server
-   run "npm run dev" and open the click on the project
+   npm i
+   npm run start
+   npm run dev
