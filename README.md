@@ -18,7 +18,7 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Clone the repository**
 
    ```bash
-   run "npm -g i json-server" for globally downloading json-server
+   npm -g i json-server
    git clone https://github.com/shayanjoon11/rick-and-morty-characters-project
    cd your-repo-name
    npm i
